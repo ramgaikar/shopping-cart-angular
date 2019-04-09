@@ -1,0 +1,11 @@
+<div class="thumbnail">
+  <h6>{{ product.productName }}</h6>
+  <img class="img-fluid" src={{product.productImage}} alt="{{product.productName}}" />
+  <div class="clearfix">
+    <div class="text-center my-2">
+      <h4>{{ product.price }}</h4>
+      <button (click)="addProduct(product)" class="btn btn-primary">Add to cart
+      </button>
+    </div>
+  </div>
+</div>

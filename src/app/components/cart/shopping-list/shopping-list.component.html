@@ -1,0 +1,10 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+     <ul>
+       <li *ngFor="let item of cartProducts" class="my-2 d-flex justify-content-between">
+         <span class="col-8">{{item.productName}}</span>
+         <span class="col-4 btn btn-primary mx-2" (click)="removeProduct(item.id)">Remove</span>
+       </li>
+     </ul>
+  </div>
+</div>
