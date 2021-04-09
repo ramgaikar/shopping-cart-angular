@@ -30,8 +30,7 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -143,7 +142,7 @@
   "defaultProject": "ecommerce",
   "schematics": {
     "@schematics/angular:component": {
-      "styleext": "scss"
+      "style": "scss"
     }
   }
 }
